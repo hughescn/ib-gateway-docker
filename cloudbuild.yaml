@@ -3,9 +3,9 @@ steps:
   args:
   - 'build'
   - '-t'
-  - 'us-central1-docker.pkg.dev/$PROJECT_ID/ib-gateway-repo/ib-gateway:latest'
+  - 'us-central1-docker.pkg.dev/art-trading-platform-dev/ib-gateway-repo/ib-gateway:latest'
   - '.'
 images:
-- 'us-central1-docker.pkg.dev/$PROJECT_ID/ib-gateway-repo/ib-gateway:latest'
+- 'us-central1-docker.pkg.dev/art-trading-platform-dev/ib-gateway-repo/ib-gateway:latest'
 options:
   logging: CLOUD_LOGGING_ONLY
